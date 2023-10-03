@@ -3,7 +3,7 @@
 with pkgs;
 mkShell {
     nativeBuildInputs = [
-        gcc7 sourcekit-lsp
+        gcc7 clang-tools gdb
         go gopls
     ];
 
