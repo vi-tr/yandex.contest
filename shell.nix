@@ -4,7 +4,7 @@ with pkgs;
 mkShell {
     nativeBuildInputs = [
         gcc7 clang-tools gdb
-        go gopls
+        go gopls delve
     ];
 
     shellHook = ''
